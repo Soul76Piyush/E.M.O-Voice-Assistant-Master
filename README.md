@@ -5,7 +5,7 @@ Meet **E.M.O** — a Python-powered voice assistant designed to make your daily 
 
 ## ✨ Features
 
-JARVIS can do a wide range of amazing things:
+E.M.O can do a wide range of amazing things:
 
 - 🗣️ Greet you
 - ⏰ Tell the current time and date
@@ -28,13 +28,6 @@ JARVIS can do a wide range of amazing things:
 - 📸 Take and save screenshots with custom names
 - 🔐 Hide/unhide files in a folder
 - 🖼️ Clean, intuitive Graphical User Interface
-
----
-
-## 🎥 Demo
-
-▶️ **Check out the working demo** on YouTube: [Watch Video](https://www.youtube.com/watch?v=oKtrHy0ERNA)
-
 ---
 
 ## 🔑 API Keys Required
@@ -54,13 +47,13 @@ Follow the steps below to set up the project locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Jarvis-Voice-Assistant.git
-cd Jarvis-Voice-Assistant
+git clone https://github.com/your-username/E.M.O-Voice-Assistant-Master.git
+cd E.M.O-Voice-Assistant-Master
 ````
 
 ### 2. Create and Configure `config.py`
 
-In `Jarvis/config/config.py`, add:
+In `E.M.O/config/config.py`, add:
 
 ```python
 weather_api_key = "<your_api_key>"
@@ -72,7 +65,7 @@ wolframalpha_id = "<your_wolframalpha_id>"
 ### 3. Create Python Environment (Using Anaconda)
 
 ```bash
-conda create -n jarvis python==3.8.5
+conda create -n E.M.O python==3.8.5
 conda activate jarvis
 ```
 
@@ -96,26 +89,9 @@ Enjoy using your personal assistant! 🎉
 
 ---
 
-## 🗂️ Project Structure
-
-```plaintext
-├── driver/
-├── Jarvis/
-│   ├── config/         # Secret API keys and credentials
-│   ├── features/       # All features implemented modularly
-│   └── utils/          # GUI images and assets
-├── __init__.py         # Feature imports
-├── gui.ui              # GUI layout file
-├── main.py             # Main execution script
-├── requirements.txt    # Required dependencies
-└── README.md           # Project Documentation
-```
-
----
-
 ## 🧩 Adding New Features
 
-JARVIS is highly **modular and extensible**:
+E.M.O-Voice-Assistant-Master is highly **modular and extensible**:
 
 1. Create a new `.py` file inside the `features/` directory.
 2. Define your feature function.
@@ -139,27 +115,6 @@ JARVIS is highly **modular and extensible**:
 * Python libraries: `speech_recognition`, `pyttsx3`, `pywhatkit`, `wikipedia`, `wolframalpha`, etc.
 * APIs: OpenWeather, WolframAlpha, Google Calendar
 * [StackOverflow](https://stackoverflow.com/) for invaluable help
-
 ---
 
-
-## 🔗 Connect
-
-For feedback or contributions, feel free to [open an issue](https://github.com/your-username/Jarvis-Voice-Assistant/issues) or submit a PR.
-
----
-
-> "I'm not just a voice... I'm your virtual companion!" — JARVIS
-
-```
-
----
-
-Let me know if you’d like me to also create a **GUI preview image**, **custom logo**, or help with **publishing your project** on GitHub Pages or PyPI.
-```
-
-
-## Future Improvements
-- Generalized conversations can be made possible by incorporating Natural Language Processing
-- GUI can be made more nicer to look at and functional
-- More functionalities can be added
+> "I'm not just a voice... I'm your virtual companion!" — E.M.O-Voice-Assistant-Master
