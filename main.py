@@ -1,4 +1,4 @@
-from Jarvis import JarvisAssistant
+from E.M.O import JarvisAssistant
 import re
 import os
 import random
@@ -27,8 +27,8 @@ obj = JarvisAssistant()
 
 # ================================ MEMORY ===========================================================================================================
 
-GREETINGS = ["hello jarvis", "jarvis", "wake up jarvis", "you there jarvis", "time to work jarvis", "hey jarvis",
-             "ok jarvis", "are you there"]
+GREETINGS = ["hello E.M.O", "E.M.O", "wake up E.M.O", "you there E.M.O", "time to work E.M.O", "hey E.M.O",
+             "ok E.M.O", "are you there"]
 GREETINGS_RES = ["always there for you sir", "i am ready sir",
                  "your wish my command", "how can i help you sir?", "i am online and ready sir"]
 
@@ -63,7 +63,7 @@ def computational_intelligence(question):
         return None
     
 def startup():
-    speak("Initializing Jarvis")
+    speak("Initializing E.M.O")
     speak("Starting all systems applications")
     speak("Installing and checking all drivers")
     speak("Caliberating and examining all the core processors")
@@ -96,7 +96,7 @@ def wish():
         speak("Good evening")
     c_time = obj.tell_time()
     speak(f"Currently it is {c_time}")
-    speak("I am Jarvis. Online and ready sir. Please tell me how may I help you")
+    speak("I am E.M.O. Online and ready sir. Please tell me how may I help you")
 # if __name__ == "__main__":
 
 
@@ -351,10 +351,10 @@ class Main(QMainWindow):
     # def run(self):
     #     self.TaskExection
     def startTask(self):
-        self.ui.movie = QtGui.QMovie("Jarvis/utils/images/live_wallpaper.gif")
+        self.ui.movie = QtGui.QMovie("E.M.O/utils/images/live_wallpaper.gif")
         self.ui.label.setMovie(self.ui.movie)
         self.ui.movie.start()
-        self.ui.movie = QtGui.QMovie("Jarvis/utils/images/initiating.gif")
+        self.ui.movie = QtGui.QMovie("E.M.O/utils/images/initiating.gif")
         self.ui.label_2.setMovie(self.ui.movie)
         self.ui.movie.start()
         timer = QTimer(self)
@@ -372,6 +372,6 @@ class Main(QMainWindow):
 
 
 app = QApplication(sys.argv)
-jarvis = Main()
-jarvis.show()
+E.M.O = Main()
+E,M,O.show()
 exit(app.exec_())
